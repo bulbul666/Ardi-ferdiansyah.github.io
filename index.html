@@ -1,225 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Icon Style -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
-    <link rel="icon" href="img/icon/favicon.png" type="image/x-icon" sizes="16x16" />
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-
-    <!-- Custom CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-
-    <title>My Portfolio | Ardi Ferdiansyah</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
   </head>
-  <body id="home">
-    <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Ardi Ferdiansyah</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#home">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Ardi Ferdiansyah</a>
+
+      <nav class="navbar">
+        <a href="#">Contact me</a>
+      </nav>
+    </header>
+
+    <section class="home">
+      <div class="home-content">
+        <h1>Ardi Ferdiansyah</h1>
+        <h3>Web Developer</h3>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam repudiandae, nesciunt vel a quo quisquam illo natus saepe odit! Consequatur molestiae suscipit illum explicabo, nulla similique atque asperiores corporis unde!</p>
+        <div class="btn-box">
+          <a href="mailto:buleselows@gmail.com">Get in touch!</a>
         </div>
       </div>
-    </nav>
-
-    <!-- navbar end -->
-
-    <!-- jumbotron -->
-
-    <section class="jumbotron text-center">
-      <img src="img/elub.jpg" alt="ardi" width="200px" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">ARDI FERDIANSYAH</h1>
-      <p class="lead">College Student | Amateur Programmer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,224L48,224C96,224,192,224,288,192C384,160,480,96,576,69.3C672,43,768,53,864,74.7C960,96,1056,128,1152,160C1248,192,1344,224,1392,240L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- jumbotron end -->
-
-    <!-- about -->
-
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>I am a 7th semester student at STMIK Mardira Indonesia who is taking leave and has an interest (hobby) in developing/programming both applications and websites that can benefit all people.</p>
-          </div>
-          <div class="col-md-4">
-            <p>Becoming a professional developer/programmer is one of my hopes and with this portfolio I will share one of my skills, and at the same time receive input from other professionals.</p>
-          </div>
-        </div>
+      <div class="home-sci">
+        <a href="https://www.facebook.com/ardiferdi.ardiferdi" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/ardxif" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.x.com/eelubis" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://github.com/bulbul666" target="_blank"><i class="bx bxl-github"></i></a>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#d3d3d3"
-          fill-opacity="1"
-          d="M0,192L60,197.3C120,203,240,213,360,197.3C480,181,600,139,720,133.3C840,128,960,160,1080,149.3C1200,139,1320,85,1380,58.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
-        ></path>
-      </svg>
     </section>
-
-    <!-- about end -->
-
-    <!-- projerk -->
-
-    <section id="project">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Projects</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/commerce.jpg" class="card-img-top" alt="commerce" />
-              <div class="card-body">
-                <p class="card-text">(Php Website)Profile Sekolah </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/POS.jpg" class="card-img-top" alt="POS" />
-              <div class="card-body">
-                <p class="card-text">(Php Website)E-Commerce </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/projects/ppdb.jpg" class="card-img-top" alt="ppdb" />
-              <div class="card-body">
-                <p class="card-text">(Php Website)Absensi </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,96L34.3,128C68.6,160,137,224,206,224C274.3,224,343,160,411,144C480,128,549,160,617,176C685.7,192,754,192,823,202.7C891.4,213,960,235,1029,234.7C1097.1,235,1166,213,1234,181.3C1302.9,149,1371,107,1406,85.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- projerk end -->
-
-    <!-- contact -->
-
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-1">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-8">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terima kasih!</strong> Pesan anda sudah diterima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="contact-portfolio">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama</label>
-                <input type="name" class="form-control" id="name" name="nama" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-              </div>
-              <div class="mb-3">
-                <label for="text" class="form-label">Pesan</label>
-                <textarea class="form-control" id="text" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0d6efd"
-          fill-opacity="1"
-          d="M0,160L80,160C160,160,320,160,480,181.3C640,203,800,245,960,234.7C1120,224,1280,160,1360,128L1440,96L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-
-    <!-- contact end -->
-
-    <!-- footer -->
-
-    <footer class="text-center text-white bg-primary pb-3">
-      <p>Made with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/ardxif" class="text-white fw-bold">Ardi Ferdiansyah</a></p>
-    </footer>
-
-    <!-- footer end -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-    <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbwrVVNvcQzncApH_Rs11aDd1BjCt_uRbVovOzRxrg7gbw00ujliWeopu6LjemreAB6a/exec";
-      const form = document.forms["contact-portfolio"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".my-alert");
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        // ketika tombol submit diklik
-        //tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle("d-none");
-        btnKirim.classList.toggle("d-none");
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            btnLoading.classList.toggle("d-none");
-            btnKirim.classList.toggle("d-none");
-            myAlert.classList.toggle("d-none");
-            form.reset();
-            console.log("Success!", response);
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
   </body>
 </html>
